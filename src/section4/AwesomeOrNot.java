@@ -16,7 +16,7 @@ public class AwesomeOrNot {
     int number = rndmNmbr.nextInt(4);
     System.out.println(number);
 	// 4. Get the user to enter something that they think is awesome
-    String awsome = JOptionPane.showInputDialog(null, "What do you think is awsome?");
+    String awsome = JOptionPane.showInputDialog(null, "What is one thing you think is awsome?");
 	// 5. If the random number is 0
     if (number == 0){
     	JOptionPane.showMessageDialog(null, awsome + " is awsome!!");
